@@ -1,0 +1,13 @@
+/node_modules
+/dist
+
+.env
+*.env
+*.lock
+*.http
+*.log
+.vscode
+*.pem
+*.crt
+*.key
+*.pfx
