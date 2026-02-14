@@ -7,7 +7,8 @@
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
     "start": "node dist/server.js",
-    "docker:up": "sudo docker compose -p ai-api up -d"
+    "docker:up": "sudo docker compose -p ai-api up -d",
+    "worker:queue": "tsx src/workers/llm.worker.ts"
   },
   "keywords": [],
   "author": "",
